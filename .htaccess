@@ -1,0 +1,14 @@
+RewriteEngine 	On
+Rewriterule index.html 			index.php?module=default&controller=index&action=index
+Rewriterule category.html 		index.php?module=default&controller=category&action=index
+Rewriterule register.html 		index.php?module=default&controller=index&action=register
+Rewriterule login.html 			index.php?module=default&controller=index&action=login
+Rewriterule myacout.html 		index.php?module=default&controller=user&action=myacout
+Rewriterule buy.html 			index.php?module=default&controller=user&action=buy
+
+
+
+Rewriterule cart.html 			index.php?module=default&controller=user&action=cart
+Rewriterule history.html 		index.php?module=default&controller=user&action=history
+Rewriterule ([A-Za-z0-9_-]+)-([0-9]+)\.html 		index.php?module=default&controller=book&action=list&id=$2
+Rewriterule ([A-Za-z0-9_-]+)/([A-Za-z0-9_-]+)-([0-9]+)-([0-9]+)\.html 		index.php?module=default&controller=book&action=detail&category_id=$3&id=$4

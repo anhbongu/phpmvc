@@ -1,0 +1,9 @@
+***CHUYỂN ĐỔI URL
+
+1: DÙNG BIỂU THỨC CHÍNH QUY:
+ 	VD: category-name-1.html
+ 	([A-Za-z0-9_-]+)-([0-9]+)\.html
+ 	-([A-Za-z0-9_-]+): các ký hiệu từ A-Z, a-z, 0-9, các ký hiệu _-, + xuất hiện n lần 
+ 	- Dấu -
+ 	-([0-9]+): Tiếp theo: các số xuất hiện từ 0-9, + xuất hiện n lần
+ 	-\. : Dấu . ký hiệu đặc biệt nên thêm \
